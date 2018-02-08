@@ -1,0 +1,84 @@
+body {
+  background-color: grey;
+}
+
+h1 {
+  margin: auto;
+  width: 50%;
+  padding:30px;
+}
+
+
+#american-flag {
+  /*background-color: black;*/
+  /*width:750px;*/
+  margin: auto;
+  width: 50%;
+
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  /*padding: 10px;*/
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.blue-stars {
+  position:relative;
+  height:180px;
+}
+
+
+.white-stripe {
+  background-color: white;
+}
+
+.red-stripe {
+  background-color: red;
+}
+
+.blue-stars {
+  background-color: blue;
+
+}
+
+
+
+/*Stars Styling*/
+.checked {
+  color: white;
+  padding:5px;
+}
+
+.column-star {
+  float: left;
+  width: 16.666%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.column-star-right {
+  float: right;
+  width: 16%;
+  /*padding-right: 1px;*/
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
